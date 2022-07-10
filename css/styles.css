@@ -1,0 +1,78 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --acсent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+.page {
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+.page-header {
+  background: #ffffff;
+  color: var(--primary-text-color);
+}
+/* основной текста #212121*/
+/* вторичный цвет текста #757575*/
+/* акцент #2196F3*/
+/* белый #FFFFFF */
+
+/* шапка сайта */
+.part {
+  color: #2196f3;
+}
+/* сайт нав */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: var(--acсent-color);
+}
+.auth-nav .auth-link {
+  color: var(--title-text-color);
+}
+.auth-nav .auth-link:hover,
+.auth-nav .auth-linkl:focus {
+  color: var(--acсent-color);
+}
+/* Герой цвет временно до описания фона*/
+.hero {
+  color: red;
+}
+.button-primary {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.button-primary:hover,
+.button-primary:focus {
+  color: #ffffff;
+  background-color: #188ce8;
+}
+/* ; */
+
+/* Feature */
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* Преимущества, заголовок скрыт */
+.description {
+  color: var(--title-text-color);
+}
