@@ -206,6 +206,9 @@ body {
   letter-spacing: 0.03em;
   border: none;
 }
+.cursor {
+  cursor: pointer;
+}
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--primary-white-color);
@@ -218,7 +221,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
+/* подправить поинтер */
 .picture-list .cursor {
   cursor: pointer;
 }
